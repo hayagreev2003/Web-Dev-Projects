@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infi-Health</title>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <a class="navbar-brand ml-4 d-flex" href="#">
+            <img src="images/logo3.png" alt="image-logo" width="120px" height="80px">
+            <h5 style="margin-top: 28px;color:#182b38">INFI-HEALTH</h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navbar-links navbar-css" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#auSection">ABOUT US<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#departments">DEPARTMENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#doctors">DOCTORS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#patientinfo">PATIENT INFORMATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-css" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carousal3.png" class="d-block w-100 corousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Infi-Health Cancer Center, India's Most Advanced Cancer Center Is Accredited by JCI </h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousal2.png" class="d-block w-100 corousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Your Safety is our First Priority.</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousal4.png" class="d-block w-100 corousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="color: black;font-weight:bold">
+                    <h3>You are not alone in case of Emergency</h3>
+                    <p>Get the most advanced emergency care anywhere in just minutes. Contact Infi-Health Now</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousal1.png" class="d-block w-100 corousel-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Most Advanced Operation Theaters With World Class Amenities. </h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+    </div>
+
+    <div class="aboutus" id="auSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 section-description">
+                    <h5>About Us</h5>
+                    <h3>we take care of your healthy life</h3>
+                    <p>We provide a variety of treatment and prevention services, each at the forefront of the medical industry, designed to provide the most comprehensive benefits to our patients.</p>
+                    <p>Use the power of creativity and commitment to innovation to enable us to be a regional leader in healthcare, a model provider of continuous learning, and the standard in workforce development.</p>
+                    <div class="btns-sec">
+                        <button class="about-btns">Vision</button>
+                        <button class="about-btns">Mission</button>
+                        <button class="about-btns">Strategy</button>
+                    </div>
+                    <a href="#" class="btn"> Read More <span class="fas fa-chevron-right"></span> </a>
+                    <!-- <h6>Experienced Workers</h6>
+                    <p>Infi-Health is the largest health care ecosystem across many states in India, on a mission to support your whole health.</p> -->
+                </div>
+                <div class="col-lg-5 col-md-12 section-img">
+                    <img src="images/aboutus.png" alt="aboutus-image" class="aboutus-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="departments" id="departments">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 dept-heading">
+                    <h6>Departments</h6>
+                </div>
+                <div class="col-12 dept-description">
+                    <h2>Explore our Centres of Clinical Excellence</h2>
+                    <p>Learn about the world class health care we provide</p>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <img src="images/speciality.webp" alt="doctors" class="spe-image">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="text-center pt-lg-0 pt-4">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12">
+                                <div class="row row-cols-3 row-cols-lg-4 g-2 g-lg-4">
+                                    <div class="col col-md-3 types">
+                                        <a href="" class="pg_widget">
+                                            <img src="images/cardiology_icon.svg" alt="icon">
+                                            <h5>Cardiology</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="col col-md-3 types">
+                                        <a href="" class="pg_widget">
+                                            <img src="images/gastroenterology.svg" alt="icon">
+                                            <h5>Gastroenterology</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="col col-md-3 types">
+                                        <a href="" class="pg_widget">
+                                            <img src="images/orthopaedic.svg" alt="icon">
+                                            <h5>Orthopaedic</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="col col-md-3 types">
+                                        <a href="" class="pg_widget">
+                                            <img src="images/gynecology.svg" alt="icon">
+                                            <h5>Gynecology</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="col col-md-3 types">
+                                        <a href="" class="pg_widget">
+                                            <img src="images/neurology.svg" alt="icon">
+                                            <h5>Neurosurgery</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="col col-md-3 types">
+                                        <a href="" class="pg_widget">
+                                            <img src="images/psychiatry.svg" alt="icon">
+                                            <h5>Psychiatry</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="col types col-md-3">
+                                        <a href="" class="pg_widget">
+                                            <img src="images/dentistry.svg" alt="icon">
+                                            <h5>Dentistry</h5>
+                                        </a>
+                                    </div>
+
+                                    <div class="col types col-md-3">
+                                        <a href="" class="pg_widget">
+                                            <img src="images/ent.svg" alt="icon">
+                                            <h5>ENT (Ear, Nose, Throat)</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="serv-heading">Services</h1>
+                </div>
+                <div class="col-lg-5 col-md-5 card-type">
+                    <div class="card serv-card">
+                        <i class="fas fa-notes-medical services-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">free checkups</h5>
+                            <p class="card-text">Our doctor can tell you how often you need health checks.</p>
+                            <a href="#" class="btn"> read more <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 card-type">
+                    <div class="card serv-card">
+                        <i class="fas fa-ambulance services-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">24/7 ambulance</h5>
+                            <p class="card-text">No delay will occur in medical emergencies.</p>
+                            <a href="#" class="btn"> read more <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 card-type">
+                    <div class="card serv-card">
+                        <i class="fas fa-user-md services-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">expert doctors</h5>
+                            <p class="card-text">Cerified doctors will available to your services.</p>
+                            <a href="#" class="btn"> read more <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 card-type">
+                    <div class="card serv-card">
+                        <i class="fas fa-pills services-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Medicines</h5>
+                            <p class="card-text">All medicines are certified and trustworthy to use.</p>
+                            <a href="#" class="btn"> read more <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 card-type">
+                    <div class="card serv-card">
+                        <i class="fas fa-procedures services-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">bed facility</h5>
+                            <p class="card-text">Available with well air conditioned and non air conditioned.</p>
+                            <a href="#" class="btn"> read more <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 card-type">
+                    <div class="card serv-card">
+                        <i class="fas fa-heartbeat services-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">total care</h5>
+                            <p class="card-text">Full medications and treatment will provided to our patients.</p>
+                            <a href="#" class="btn"> read more <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="doctors" id="doctors">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="sec-heading">Our Doctors</h1>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card">
+                        <img src="images/doc-1.jpg" alt="doctor1" class="card-image">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr.Sravanthi</h5>
+                            <p class="card-text">Dermatologist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class=" card">
+                        <img src="images/doc-2.jpg" alt="doctor2">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr.Veeresh</h5>
+                            <p class="card-text">Neurosurgeon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card">
+                        <img src="images/doc-3.jpg" alt="doctor3">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr.Rajesh</h5>
+                            <p class="card-text">Dentist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card">
+                        <img src="images/doc-4.jpg" alt="doctor4">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr.Aditya Choudhary</h5>
+                            <p class="card-text">ENT Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card">
+                        <img src="images/doc-5.jpg" alt="doctor5">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr.Mohan</h5>
+                            <p class="card-text">Orthopaedics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="card">
+                        <img src="images/doc-6.jpg" alt="doctor6">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr.Abhishek Kumar</h5>
+                            <p class="card-text">Cardiologist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="types-sec" style="margin-top: 30px;">
+        <img src="images/bd-image.webp" alt="background-image" class="bg-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="types-heading">Specaility about Infi-Health</h2>
+                    <p class="types-description">From routine wellness & preventive health care to innovative life-saving treatments and diagnostic services, Infi-Health care has touched more than 10 million lives from over 10 states.</p>
+                </div>
+
+                <div class="col-lg-4 d-flex">
+                    <img src="images/healinghands.svg" alt="hands" class="types-image">
+                    <div>
+                        <h4 class="type-heading">25+</h4>
+                        <p class="heading-desc">One of the largest private healthcare network of Hospitals</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex">
+                    <img src="images/pharmacies.svg" alt="pharmacy" class="types-image">
+                    <div>
+                        <h4 class="type-heading">200+</h4>
+                        <p class="heading-desc">Largest private network of clinics across India</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex">
+                    <img src="images/adavanced.svg" alt="hands" class="types-image">
+                    <div>
+                        <h4 class="type-heading">500+</h4>
+                        <p class="heading-desc">Diagnostic centres across India</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex">
+                    <img src="images/pharmacies.svg" alt="pharmacy" class="types-image">
+                    <div>
+                        <h4 class="type-heading">1000+</h4>
+                        <p class="heading-desc">Pharmacies</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex">
+                    <img src="images/pharmacies.svg" alt="pincodes" class="types-image">
+                    <div>
+                        <h4 class="type-heading">610+</h4>
+                        <p class="heading-desc">Pin codes Served across India</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex">
+                    <img src="images/pharmacies.svg" alt="doctors" class="types-image">
+                    <div>
+                        <h4 class="type-heading">5000+</h4>
+                        <p class="heading-desc">Doctors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="location">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <h6>LOCATION</h6>
+                    <h2>Hospitals in India</h2>
+                    <p>Infi-Health Group constitutes the best hospital in India with over 10,000 beds across 25 hospitals, 1000+ pharmacies, over 200 clinics, 500+ diagnostic centres and 110+ Telemedicine units.</p>
+                    <div class="row row-cols-3 row-cols-lg-5 g-2 g-lg-4">
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/bangalore_city.svg" alt="icon">
+                                <h5>Banglore</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/chennai_city.svg" alt="icon">
+                                <h5>Chennai</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/delhi_city.svg" alt="icon">
+                                <h5>Delhi</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types active">
+                            <a href="" class="pg_widget">
+                                <img src="images/hyderabad_city.svg" alt="icon">
+                                <h5>Hyderabad</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/kakinada_city.svg" alt="icon">
+                                <h5>Kakinada</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/kochi_city.svg" alt="icon">
+                                <h5>Kochi</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/madurai_city.svg" alt="icon">
+                                <h5>Madurai</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/mysore_city.svg" alt="icon">
+                                <h5>Mysore</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/nellore_city.svg" alt="icon">
+                                <h5>Nellore</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/trichy_city.svg" alt="icon">
+                                <h5>Trichy</h5>
+                            </a>
+                        </div>
+
+                        <div class="col location-types">
+                            <a href="" class="pg_widget">
+                                <img src="images/vizag_city.svg" alt="icon">
+                                <h5>Vishakapatnam</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <img src="images/hospital.png" alt="gospital-img" class="location-img">
+                    <div class="col-12">
+                        <h5 class="location-hyd">Hospitals in Hyderabad</h5>
+                        <i class="fa fa-map-marker map_icon" style="color:#2e9e98"></i><span class="icon-description">&nbsp;&nbsp; Film Nagar, Jubilee Hills, Hyderabad, Telangana State, India. Toll No – 1800 100 1582</span>
+                        <br>
+                        <i class="fas fa-phone-square-alt phone_icon" style="font-size:18px;color:#2e9e98"></i><span class="icon-description">&nbsp;&nbsp; + 91-40-2000 9999 / 5555 / 2222</span><br>
+                        <i class="fa fa-envelope envelope_icon" style="font-size:18px;color:#2e9e98"></i><span>&nbsp;&nbsp;</span>
+                        <i class="fas fa-location-arrow arrow_icon" style="font-size:18px;color:#2e9e98"></i>
+                        <br>
+                        <a href="" class="research-card-link">
+                            Read More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="patient-info" id="patientinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center info-heading">
+                    <p style="font-size: 18px;">The Infi-Health World of Care</p>
+                    <h2>International Patient Care</h2>
+                    <p>“Bringing healthcare of International standards within the reach of every individual.”</p>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div class="row row-cols-3 row-cols-lg-4 g-2 g-lg-4">
+                        <div class="col info-types">
+                            <a href="" class="pg_types">
+                                <img src="images/ips_hsptl.svg" alt="icon">
+                                <h5>Hospitals</h5>
+                            </a>
+                        </div>
+                        <div class="col info-types">
+                            <a href="" class="pg_types">
+                                <img src="images/ips_doctor.svg" alt="icon">
+                                <h5>Find A Doctor</h5>
+                            </a>
+                        </div>
+                        <div class="col info-types">
+                            <a href="" class="pg_types">
+                                <img src="images/ips_speciality.svg" alt="icon">
+                                <h5>Speciality</h5>
+                            </a>
+                        </div>
+                        <div class="col info-types">
+                            <a href="" class="pg_types">
+                                <img src="images/ips_planyourtrip.svg" alt="icon">
+                                <h5>Plan Your Trip</h5>
+                            </a>
+                        </div>
+                        <div class="col info-types">
+                            <a href="" class="pg_types">
+                                <img src="images/ips_testimonials.svg" alt="icon">
+                                <h5>Testimonals</h5>
+                            </a>
+                        </div>
+                        <div class="col info-types">
+                            <a href="" class="pg_types">
+                                <img src="images/ips_faq.svg" alt="icon">
+                                <h5>FAQ's</h5>
+                            </a>
+                        </div>
+                        <div class="col info-types">
+                            <a href="" class="pg_types">
+                                <img src="images/ips_onlineconsultation.svg" alt="icon">
+                                <h5>Online Consultaion</h5>
+                            </a>
+                        </div>
+                        <div class="col info-types">
+                            <a href="" class="pg_types">
+                                <img src="images/ips_Insurance.svg" alt="icon">
+                                <h5>Infi-Health Insurance</h5>
+                            </a>
+                        </div>
+                        <div class="col info-types">
+                            <a href="" class="pg_types">
+                                <img src="images/ips_visa.svg" alt="icon">
+                                <h5>Visa</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9">
+                        <p class="icon-number">
+                            Tollfree Number &nbsp;&nbsp;
+                            <i class="fas fa-phone-square-alt phone_icon" style="font-size:22px;color:#2e9e98"></i><span class="icon-desc">&nbsp;&nbsp; + 91-40-2000 9999</span><br>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 info-pg">
+                    <img src="images/patient_info.webp" alt="patient_info" class="info-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blogs">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="blogs-heading">Latest News</h4>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card blogs-card">
+                        <img src="images/blog-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="icon">
+                                <a href="#" class="icon-heading"> <i class="fas fa-calendar calender-icon"></i> 4 March 2023 </a>
+                            </div>
+                            <h4 class="card-title">Early intervention vital following traumatic brain injury</h4>
+                            <p class="card-text">Early intervention by neurologists following traumatic brain injury could significantly enhance patient outcomes, researchers from The Sanjivani and AIIMS (Rishikesh) have found.</p>
+                            <a href="#" class="btn"> find out more <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card blogs-card">
+                        <img src="images/blog-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="icon">
+                                <a href="#" class="icon-heading"> <i class="fas fa-calendar calender-icon"></i> 20 Feb 2023 </a>
+                            </div>
+                            <h4 class="card-title">Quarantine program involvment to conclude</h4>
+                            <p class="card-text">Infi-Health care partnership with COVID-19 Quarantine Victoria (CQV) will come to an end as Victoria’s quarantine program transitions to the Mickleham facility.</p>
+                            <a href="#" class="btn"> find out more <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card blogs-card">
+                        <img src="images/blog-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="icon">
+                                <a href="#" class="icon-heading"> <i class="fas fa-calendar calender-icon"></i> 06 Feb 2023 </a>
+                            </div>
+                            <h4 class="card-title">'Holy Grail' of burns treatment a step closer</h4>
+                            <p class="card-text">Researchers at Sanjivani are moving to revolutionise burns treatment with the introduction of bioengineered skin.</p>
+                            <a href="#" class="btn"> find out more <span class="fas fa-chevron-right"></span> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="appointments">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="appt-heading">What Would You Like To Do Today?</h3>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-5 appt-icon">
+                    <img src="images/bookappt_icon.svg" alt="bookappt" class="appt-icon-img">
+                    <p class="appt-icon-description">Book Appointment</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-5 appt-icon">
+                    <img src="images/consultonline_icon.svg" alt="consultonline" class="appt-icon-img">
+                    <p class="appt-icon-description">Consult Online</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-5 appt-icon">
+                    <img src="images/buymedicines_icon.svg" alt="buymedicine" class="appt-icon-img">
+                    <p class="appt-icon-description">Buy Medicine</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-5 appt-icon">
+                    <img src="images/bookhelathcheck_icon.svg" alt="bookhelathcheckup" class="appt-icon-img">
+                    <p class="appt-icon-description">Book Health Checkup</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-5 appt-icon">
+                    <img src="images/findhsptl_icon.svg" alt="findhsptl" class="appt-icon-img">
+                    <p class="appt-icon-description">Find Hospital</p>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-5 appt-icon">
+                    <img src="images/finddoctor_icon.svg" alt="finddoctor" class="appt-icon-img">
+                    <p class="appt-icon-description">View Health Record</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="box-container">
+                <div class="row">
+                    <div class="box col-lg-3 col-md-6">
+                        <h3>Quick links</h3>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Home </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Services </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> About </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Doctors </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Book </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Review </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Blogs </a>
+                    </div>
+
+                    <div class="box col-lg-3 col-md-6">
+                        <h3>Our Services</h3>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Surgery </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Physiotherapy </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Cardioloty </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Diagnosis </a>
+                        <a href="#"> <i class="fas fa-chevron-right"></i> Ambulance Service </a>
+                    </div>
+
+                    <div class="box col-lg-3 col-md-6">
+                        <h3>Contact Info</h3>
+                        <a href="#"> <i class="fas fa-phone"></i> +91 40-2000 9999 </a>
+                        <a href="#"> <i class="fas fa-phone"></i> +91 40-2000 1582</a>
+                        <a href="#"> <i class="fas fa-envelope"></i> hospital@infihealth.ac.in </a>
+                        <a href="#"> <i class="fas fa-map-marker-alt"></i> Hyderabad, India - 503401 </a>
+                    </div>
+
+                    <div class="box col-lg-3 col-md-6">
+                        <h3>follow us</h3>
+                        <a href="#"> <i class="fab fa-facebook"></i> Facebook </a>
+                        <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+                        <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+                        <a href="#"> <i class="fab fa-linkedin"></i> Linkedin </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="credit"> Copyright 2023 © Infi-Health </div>
+        </div>
+    </div>
+</body>
+
+</html>
